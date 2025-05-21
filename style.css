@@ -1,0 +1,173 @@
+/*
+Theme Name:   Twenty Twenty-Three Child
+Theme URI:    http://example.com/twenty-fifteen-child/
+Description:  Twenty Fifteen Child Theme
+Author:       John Doe
+Author URI:   http://example.com
+Template:     twentytwentythree
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  twentytwentythreechild
+*/
+
+@font-face { font-family: UthmanTN_v2-0; src: url(assets/fonts/UthmanTN_v2-0.ttf); }
+@font-face { font-family: UthmanTNB_v2-0; src: url(assets/fonts/UthmanTNB_v2-0.ttf);}
+
+@font-face { font-family: KFGQPC-KufiSty; src: url(assets/fonts/KFGQPC-KufiStyV14.ttf);}
+@font-face { font-family: KFGQPC-KufiSty-Extend; src: url(assets/fonts/KFGQPC-KufiExtV14.ttf);}
+
+@font-face { font-family: KSARegular; src: url(assets/fonts/KSARegular.ttf);}
+@font-face { font-family: KSARegular_B; src: url(assets/fonts/KSARegular_B.ttf);}
+@font-face { font-family: KSAExtra; src: url(assets/fonts/KSAExtra.ttf);}
+@font-face { font-family: KSAHeavy; src: url(assets/fonts/KSAHeavy.ttf);}
+@font-face { font-family: KSAHeading; src: url(assets/fonts/KSAHeading.ttf);}
+
+@font-face { font-family: KFGQPCAnLight; src: url(assets/fonts/KFGQPCAnLight.ttf); }
+@font-face { font-family: KFGQPCAnRegular; src: url(assets/fonts/KFGQPCAnRegular.ttf); }
+@font-face { font-family: KFGQPCAnBold; src: url(assets/fonts/KFGQPCAnBold.ttf); }
+@font-face { font-family: KFGQPCAnExtra; src: url(assets/fonts/KFGQPCAnExtra.ttf); }
+
+@font-face { font-family: KFGQPCDotFont; src: url(assets/fonts/KFGQPCDotFont.otf); }
+
+@font-face { font-family: Outlinedv001; src: url(assets/fonts/Outlinedv001.otf); }
+
+@font-face { font-family: BasmalahVer01; src: url(assets/fonts/BasmalahVer01.otf); }
+@font-face { font-family: ShadatainVer01; src: url(assets/fonts/ShadatainVer01.otf); }
+@font-face { font-family: Symbols1_Ver02; src: url(assets/fonts/Symbols1_Ver02.otf); }
+
+@font-face { font-family: UthmanicHafs; src: url(assets/fonts/UthmanicHafs_v2-1.ttf); }
+@font-face { font-family: UthmanicWarshV21; src: url(assets/fonts/UthmanicWarshV21.ttf); }
+@font-face { font-family: UthmanicQalounV21; src: url(assets/fonts/UthmanicQalounV21.ttf); }
+@font-face { font-family: UthmanicBazziV20; src: url(assets/fonts/UthmanicBazziV20.ttf); }
+@font-face { font-family: UthmanicQunbulV20; src: url(assets/fonts/UthmanicQunbulV20.ttf); }
+@font-face { font-family: UthmanicDouriV20; src: url(assets/fonts/UthmanicDouriV20.ttf); }
+@font-face { font-family: UthmanicSousiV20; src: url(assets/fonts/UthmanicSousiV20.ttf); }
+@font-face { font-family: UthmanicShubaV20; src: url(assets/fonts/UthmanicShubaV20.ttf); }
+@font-face { font-family: HafsNastaleeqVer10; src: url(assets/fonts/HafsNastaleeqVer10.otf); }
+
+@font-face { font-family: UthmanTSVer1; src: url(assets/fonts/UthmanTSVer1.ttf); }
+@font-face { font-family: UthmanTSBVer1; src: url(assets/fonts/UthmanTSBVer1.ttf); }
+
+@font-face { font-family: Zakhrfa; src: url(assets/fonts/Zakhrfa.ttf); }
+@font-face { font-family: ZakhrfaOutline; src: url(assets/fonts/ZakhrfaOutline.ttf); }
+@font-face { font-family: ZakhrfaBlk; src: url(assets/fonts/ZakhrfaBlk.ttf); }
+
+@font-face { font-family: AlJalilDot; src: url(assets/fonts/AlJalilDot_v01.ttf); }
+@font-face { font-family: AlJalil; src: url(assets/fonts/AlJalil_v01.ttf); }
+
+
+.UthmanTN_v2-0{
+	font-family: UthmanTN_v2-0, Arial, sans-serif; 
+}
+.UthmanTNB_v2-0{
+	font-family: UthmanTNB_v2-0, Arial, sans-serif; 
+}
+
+.KFGQPC-KufiSty{
+	font-family: KFGQPC-KufiSty, Arial, sans-serif; 
+}
+
+.KFGQPC-KufiSty-Extend{
+	font-family: KFGQPC-KufiSty-Extend, Arial, sans-serif; 
+}
+
+.KSARegular{
+	font-family: KSARegular, Arial, sans-serif; 
+}
+.KSARegular_B{
+	font-family: KSARegular_B, Arial, sans-serif; 
+}
+.KSAExtra{
+	font-family: KSAExtra, Arial, sans-serif; 
+}
+.KSAHeavy{
+	font-family: KSAHeavy, Arial, sans-serif; 
+}
+.KSAHeading{
+	font-family: KSAHeading, Arial, sans-serif; 
+}
+
+.KFGQPCAnLight{
+	font-family: KFGQPCAnLight, Arial, sans-serif; 
+}
+.KFGQPCAnRegular{
+	font-family: KFGQPCAnRegular, Arial, sans-serif; 
+}
+.KFGQPCAnBold{
+	font-family: KFGQPCAnBold, Arial, sans-serif; 
+}
+.KFGQPCAnExtra{
+	font-family: KFGQPCAnExtra, Arial, sans-serif; 
+}
+
+.KFGQPCDotFont{
+	font-family: KFGQPCDotFont, Arial, sans-serif; 
+}
+
+.Outlinedv001{
+	font-family: Outlinedv001, Arial, sans-serif; 
+}
+
+.BasmalahVer01{
+	font-family: BasmalahVer01, Arial, sans-serif;
+}
+.ShadatainVer01{
+	font-family: ShadatainVer01, Arial, sans-serif;
+}
+.Symbols1_Ver02{
+	font-family: Symbols1_Ver02, Arial, sans-serif;
+}
+
+.UthmanicHafs{
+	font-family: UthmanicHafs, Arial, sans-serif; 
+}
+.UthmanicWarshV21{
+	font-family: UthmanicWarshV21, Arial, sans-serif; 
+}
+.UthmanicQalounV21{
+	font-family: UthmanicQalounV21, Arial, sans-serif; 
+}
+.UthmanicBazziV20{
+	font-family: UthmanicBazziV20, Arial, sans-serif; 
+}
+.UthmanicQunbulV20{
+	font-family: UthmanicQunbulV20, Arial, sans-serif; 
+}
+.UthmanicDouriV20{
+	font-family: UthmanicDouriV20, Arial, sans-serif; 
+}
+.UthmanicSousiV20{
+	font-family: UthmanicSousiV20, Arial, sans-serif; 
+}
+.UthmanicShubaV20{
+	font-family: UthmanicShubaV20, Arial, sans-serif; 
+}
+.HafsNastaleeqVer10{
+	font-family: HafsNastaleeqVer10, Arial, sans-serif; 
+}
+
+.UthmanTSVer1{
+	font-family: UthmanTSVer1, Arial, sans-serif; 
+}
+.UthmanTSBVer1{
+	font-family: UthmanTSBVer1, Arial, sans-serif; 
+}
+
+.Zakhrfa{
+	font-family: Zakhrfa, Arial, sans-serif; 
+}
+.ZakhrfaOutline{
+	font-family: ZakhrfaOutline, Arial, sans-serif; 
+}
+.ZakhrfaBlk{
+	font-family: ZakhrfaBlk, Arial, sans-serif; 
+}
+
+.AlJalilDot{
+	font-family: AlJalilDot, Arial, sans-serif; 
+}
+.AlJalil{
+	font-family: AlJalil, Arial, sans-serif; 
+}
